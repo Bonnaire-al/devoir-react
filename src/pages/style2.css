@@ -1,0 +1,100 @@
+/* Style pour la page d'acceuil*/
+.hero {
+        background-image: url(../img/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    overflow: hidden;
+    
+  
+  }
+
+  .bloc1{
+    height: 80vh;
+    color: #EEE;
+  }
+
+
+  .bloc2{
+    background-color: white;
+    margin-top: 5%;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5%;
+  }
+  .bloc3{
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  @media (max-width: 1024px) {
+    .hero  {
+      height: 50vh; /* La hauteur est 60% de la hauteur du viewport pour les tablettes et mobiles */
+    }
+    .bloc1  {
+      height: 50vh; /* La hauteur est 60% de la hauteur du viewport pour les tablettes et mobiles */
+    }
+  }
+  
+  .text{
+    border-top-style:groove;
+   border-top-color: blue;
+   padding-top: 3%;
+  }
+  .progress {
+    margin-bottom: 1rem;
+  }
+  
+  .progress-bar {
+    background-color: #2f00ff;
+  }
+  
+
+/* Style pour la page service*/
+.bloc5{
+  background-color: white;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
+  height: 40vh;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-top: 2%;
+}
+.service-logo {
+  transition: filter 0.3s ease;
+}
+
+.service-logo:hover {
+  filter: brightness(0) saturate(100%) invert(87%) sepia(5%) saturate(5048%) hue-rotate(180deg) brightness(97%) contrast(90%);
+}
+
+/* Style pour la page contact*/
+.underline {
+  border: none;
+  height: 3px;
+  background-color: rgb(3, 3, 255);
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section3{
+  background-color: rgba(0, 105, 255, 0.5) ;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
+  height: 100vh;
+  border-radius: 3%;
+  color: #000000;
+ 
+}
+
+
+@media (max-width: 767px) {
+ /* Style pour la page service*/
+  .bloc5  {
+    height: 25vh; 
+  }
+  /* Style pour la page contact*/
+  .section3{
+    height: 190vh;
+    width: 90%;
+  }
+  /* Style pour la page mention*/
+ 
+}

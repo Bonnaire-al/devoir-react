@@ -1,0 +1,15 @@
+
+.bloc6{
+    background-color: white;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
+    height: 65vh;
+    
+}
+
+@media (max-width: 767px) {
+
+  .img6 {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
